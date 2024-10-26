@@ -1,0 +1,148 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #4c7eff, #e6f0ff);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Encabezado */
+header {
+    width: 100%;
+    padding: 20px;
+    background: #ffb347;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+/* Sección Introductoria */
+.intro {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro h2 {
+    color: #ff5e57;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Sección Departamento */
+.department {
+    color: #ff5e57;
+    text-align: center; /* Centrar el texto y la imagen */
+    margin: 20px 0; /* Espacio arriba y abajo */
+}
+
+.department img {
+    width: 100%; /* Hacer que la imagen sea responsiva */
+    max-width: 300px; /* Limitar el ancho máximo */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Galería de imágenes */
+.gallery {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 1.8em;
+    color: #ff5e57;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.gallery-image {
+    width: 300px; /* Aumentar el tamaño de las imágenes */
+    height: auto; /* Mantener la proporción */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); /* Efecto al pasar el ratón */
+}
+
+/* Sección de Datos Curiosos */
+
+.facts {
+    margin-top: 30px;
+    background-color: #ffb347;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%; /* Ancho de la sección */
+    max-width: 700px;
+    margin-left: auto; /* Centrar horizontalmente */
+    margin-right: auto; /* Centrar horizontalmente */
+    text-align: center; /* Centrar el texto */
+}
+
+.facts h2 {
+    color: white;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.facts ul {
+    list-style-type: square;
+    padding-left: 0; /* Eliminar el padding izquierdo */
+    color: white;
+    font-size: 1.2em;
+    text-align: center; /* Centrar los elementos de la lista */
+}
+
+/* Sección de Recomendaciones */
+.recommendations {
+    margin-top: 30px;
+    width: 80%; /* Limitar el ancho para mantener el diseño uniforme */
+    max-width: 700px;
+    margin-left: auto; /* Centrar horizontalmente */
+    margin-right: auto; /* Centrar horizontalmente */
+    text-align: center; /* Centrar el texto */
+}
+
+.recommendation-item {
+    margin: 15px 0; /* Espacio entre recomendaciones */
+}
+
+.rating {
+    font-size: 1.5em; /* Aumentar el tamaño de las estrellas */
+    text-align: center; /* Asegurarse que las estrellas también estén centradas */
+}
+
+/* Pie de página */
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background: #4c7eff;
+    color: white;
+}
+
